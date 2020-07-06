@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #444;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #0b6bd3;
+  color: #000000;
   outline: none;
   text-decoration: none;
 }
@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #ecf5ff;
+  background: #b41400b0;
 }
 
 /* About Us Section
@@ -1370,4 +1370,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer .credits a:hover {
   color: #f1f7ff;
+}
+
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+.img-custom-1 {
+  padding-bottom: 5px;  
 }
