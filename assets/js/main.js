@@ -31,6 +31,15 @@
     return false;
   });
 
+  // Float-icon
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+      $('.float-icon').fadeIn('slow');
+    } else {
+      $('.float-icon').fadeOut('slow');
+    }
+  });
+
   // Initiate the wowjs animation library
   new WOW().init();
 
