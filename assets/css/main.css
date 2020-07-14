@@ -1489,14 +1489,13 @@ h6 {
   display: none;
   background: #B41400;
   color: #fff;
-  width: 44px;
-  height: 44px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   line-height: 1;
-  font-size: 16px;
   border-radius: 50%;
-  right: 15px;
-  bottom: 15px;
+  right: 90px;
+  bottom: 25px;
   transition: background 0.5s;
   z-index: 11;
 }
@@ -1504,7 +1503,6 @@ h6 {
 .float-icon i {
   padding-top: 6px;
   color: #fff;
-  font-size: 30px;
 }
 
 @media (max-width: 768px) {
