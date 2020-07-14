@@ -5,7 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -22,9 +21,7 @@ a {
   text-decoration: unset;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
   color: #000000;
   outline: none;
   text-decoration: none;
@@ -35,18 +32,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
 }
-
 
 /* Back to top button */
 
@@ -74,10 +65,9 @@ h6 {
 
 @media (max-width: 768px) {
   .back-to-top {
-      bottom: 15px;
+    bottom: 15px;
   }
 }
-
 
 /* Prelaoder */
 
@@ -108,22 +98,21 @@ h6 {
 
 @-webkit-keyframes animate-preloader {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes animate-preloader {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 
 /*--------------------------------------------------------------
 # Header
@@ -139,16 +128,15 @@ h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
-#header.header-scrolled,
-#header.header-pages {
+#header.header-scrolled, #header.header-pages {
   height: 60px;
   padding: 10px 0;
 }
 
 @media (max-width: 991px) {
   #header {
-      height: 60px;
-      padding: 10px 0;
+    height: 60px;
+    padding: 10px 0;
   }
 }
 
@@ -164,13 +152,12 @@ h6 {
 
 @media (max-width: 991px) {
   #header .logo h1 {
-      font-size: 28px;
-      padding: 8px 0;
+    font-size: 28px;
+    padding: 8px 0;
   }
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
+#header .logo h1 a, #header .logo h1 a:hover {
   color: #00366f;
   text-decoration: none;
 }
@@ -185,11 +172,9 @@ h6 {
   margin-top: 60px;
 }
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-
 
 /* Desktop Navigation */
 
@@ -198,8 +183,7 @@ h6 {
   /* Deep Drop Down */
 }
 
-.main-nav,
-.main-nav * {
+.main-nav, .main-nav * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -222,9 +206,7 @@ h6 {
   font-weight: 500;
 }
 
-.main-nav a:hover,
-.main-nav .active>a,
-.main-nav li:hover>a {
+.main-nav a:hover, .main-nav .active>a, .main-nav li:hover>a {
   color: #B41400;
   text-decoration: none;
 }
@@ -260,9 +242,7 @@ h6 {
   color: #004289;
 }
 
-.main-nav .drop-down ul a:hover,
-.main-nav .drop-down ul .active>a,
-.main-nav .drop-down ul li:hover>a {
+.main-nav .drop-down ul a:hover, .main-nav .drop-down ul .active>a, .main-nav .drop-down ul li:hover>a {
   color: #B41400;
 }
 
@@ -293,7 +273,6 @@ h6 {
   right: 15px;
 }
 
-
 /* Mobile Navigation */
 
 .mobile-nav {
@@ -323,9 +302,7 @@ h6 {
   font-weight: 500;
 }
 
-.mobile-nav a:hover,
-.mobile-nav .active>a,
-.mobile-nav li:hover>a {
+.mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
   color: #212529;
   text-decoration: none;
 }
@@ -399,7 +376,6 @@ h6 {
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -414,13 +390,13 @@ h6 {
 
 @media (max-width: 991px) {
   #intro {
-      padding: 140px 0 60px 0;
+    padding: 140px 0 60px 0;
   }
 }
 
 @media (max-width: 574px) {
   #intro {
-      padding: 100px 0 20px 0;
+    padding: 100px 0 20px 0;
   }
 }
 
@@ -436,9 +412,9 @@ h6 {
 
 @media (max-width: 991px) {
   #intro .intro-img {
-      width: 80%;
-      float: none;
-      margin: 0 auto 25px auto;
+    width: 80%;
+    float: none;
+    margin: 0 auto 25px auto;
   }
 }
 
@@ -449,16 +425,16 @@ h6 {
 
 @media (max-width: 991px) {
   #intro .intro-info {
-      width: 80%;
-      float: none;
-      margin: auto;
-      text-align: center;
+    width: 80%;
+    float: none;
+    margin: auto;
+    text-align: center;
   }
 }
 
 @media (max-width: 767px) {
   #intro .intro-info {
-      width: 100%;
+    width: 100%;
   }
 }
 
@@ -471,13 +447,12 @@ h6 {
 
 @media (max-width: 767px) {
   #intro .intro-info h2 {
-      font-size: 34px;
-      margin-bottom: 30px;
+    font-size: 34px;
+    margin-bottom: 30px;
   }
 }
 
-#intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
+#intro .intro-info .btn-get-started, #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -512,11 +487,9 @@ h6 {
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-
 
 /* Sections Header
 --------------------------------*/
@@ -539,10 +512,9 @@ h6 {
 
 @media (max-width: 767px) {
   .section-header p {
-      width: 100%;
+    width: 100%;
   }
 }
-
 
 /* Section with background
 --------------------------------*/
@@ -550,7 +522,6 @@ h6 {
 .section-bg {
   background: #B41400;
 }
-
 
 /* About Us Section
 --------------------------------*/
@@ -642,7 +613,6 @@ h6 {
   font-size: 24px;
 }
 
-
 /* Services Section
 --------------------------------*/
 
@@ -705,8 +675,7 @@ h6 {
   background: #FFFFFF;
 }
 
-#why-us .section-header h3,
-#why-us .section-header p {
+#why-us .section-header h3, #why-us .section-header p {
   color: #000000;
 }
 
@@ -724,7 +693,7 @@ h6 {
 
 @media (max-width: 991px) {
   #why-us .card {
-      margin: 0;
+    margin: 0;
   }
 }
 
@@ -778,7 +747,6 @@ h6 {
   font-size: 14px;
 }
 
-
 /* Portfolio Section
 --------------------------------*/
 
@@ -809,8 +777,7 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   background: #B41400;
   color: #fff;
 }
@@ -877,8 +844,7 @@ h6 {
   text-transform: uppercase;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
   display: inline-block;
   line-height: 1;
   text-align: center;
@@ -889,20 +855,17 @@ h6 {
   margin: 10px 4px 0 4px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
   background: #3395ff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
   color: #fff;
 }
 
@@ -913,7 +876,6 @@ h6 {
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
-
 
 /* Testimonials Section
 --------------------------------*/
@@ -929,7 +891,7 @@ h6 {
 
 @media (max-width: 767px) {
   #testimonials .testimonial-item {
-      text-align: center;
+    text-align: center;
   }
 }
 
@@ -942,8 +904,8 @@ h6 {
 
 @media (max-width: 767px) {
   #testimonials .testimonial-item .testimonial-img {
-      float: none;
-      margin: auto;
+    float: none;
+    margin: auto;
   }
 }
 
@@ -969,20 +931,17 @@ h6 {
 
 @media (min-width: 992px) {
   #testimonials .testimonial-item p {
-      width: 80%;
+    width: 80%;
   }
 }
 
 @media (max-width: 767px) {
-  #testimonials .testimonial-item h3,
-  #testimonials .testimonial-item h4,
-  #testimonials .testimonial-item p {
-      margin-left: 0;
+  #testimonials .testimonial-item h3, #testimonials .testimonial-item h4, #testimonials .testimonial-item p {
+    margin-left: 0;
   }
 }
 
-#testimonials .owl-nav,
-#testimonials .owl-dots {
+#testimonials .owl-nav, #testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -999,7 +958,6 @@ h6 {
 #testimonials .owl-dot.active {
   background-color: #B41400;
 }
-
 
 /* Team Section
 --------------------------------*/
@@ -1079,7 +1037,6 @@ h6 {
   margin: 0 2px;
 }
 
-
 /* Clients Section
 --------------------------------*/
 
@@ -1113,7 +1070,6 @@ h6 {
 #clients img {
   transition: all 0.4s ease-in-out;
 }
-
 
 /* Contact Section
 --------------------------------*/
@@ -1235,15 +1191,13 @@ h6 {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input,
-#contact .php-email-form textarea {
+#contact .php-email-form input, #contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-#contact .php-email-form input::focus,
-#contact .php-email-form textarea::focus {
+#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
   background-color: #B41400;
 }
 
@@ -1271,22 +1225,21 @@ h6 {
 
 @-webkit-keyframes animate-loading {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes animate-loading {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -1435,7 +1388,6 @@ h6 {
   color: #f1f7ff;
 }
 
-
 /*--------------------------------------------------------------
 # Custom
 --------------------------------------------------------------*/
@@ -1465,23 +1417,23 @@ h6 {
   color: #000000 !important;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+  margin-top: 16px;
 }
 
 .float-icon {
@@ -1503,10 +1455,11 @@ h6 {
 .float-icon i {
   padding-top: 6px;
   color: #fff;
+  font-size: 45px;
 }
 
 @media (max-width: 768px) {
   .float-icon {
-      bottom: 15px;
+    bottom: 15px;
   }
 }
