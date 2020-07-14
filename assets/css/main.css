@@ -1450,6 +1450,12 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 25px;
   transition: background 0.5s;
   z-index: 11;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
+  transition: box-shadow 150ms linear;
+}
+
+.float-icon:hover {
+  box-shadow: 0 5px 24px rgba(0, 0, 0, .3);
 }
 
 .float-icon i {
