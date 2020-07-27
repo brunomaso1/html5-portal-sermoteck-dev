@@ -478,38 +478,30 @@
                             </div>
                         </div>
                         <div class="form">
-                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <form action="https://formspree.io/mdowykba" method="post" role="form" target="_blank"
+                                class="php-email-form">
                                 <div class="form-row">
                                     <div class="form-group col-lg-12">
                                         <input type="text" name="name" class="form-control" id="name"
                                             placeholder="Nombre" data-rule="minlen:4"
-                                            data-msg="Por favor, ingresa al menos 4 caracteres" />
+                                            data-msg="Por favor, ingresa al menos 4 caracteres" required />
                                         <div class="validate"></div>
                                     </div>
                                     <div class="form-group col-lg-12">
-                                        <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="Email" data-rule="email" data-msg="Ingresa un email válido" />
+                                        <input type="email" class="form-control" name="_replyto" placeholder="Email"
+                                            data-rule="email" data-msg="Ingresa un email válido" required />
                                         <div class="validate"></div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject"
-                                        placeholder="Motivo" data-rule="minlen:4"
-                                        data-msg="Por favor, describe mejor tu consulta" />
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="form-group">
                                     <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                        data-msg="Escribenos tu consulta" placeholder="Mensaje"></textarea>
+                                        data-msg="Escribenos tu consulta" placeholder="Mensaje" required></textarea>
                                     <div class="validate"></div>
                                 </div>
-                                <div class="mb-3">
-                                    <div class="loading">Cargando</div>
-                                    <div class="error-message">El mensaje no pudo ser enviado, intenta nuevamente.</div>
-                                    <div class="sent-message">Tu mensaje fue envíado. Gracias!</div>
+                                <div class="text-center">
+                                    <button type="submit" value="Send" title="Send Message" data-toggle="modal"
+                                        data-target="#emailModal">Enviar mensaje</button>
                                 </div>
-                                <div class="text-center"><button type="submit" title="Send Message">Enviar
-                                        mensaje</button></div>
                             </form>
                         </div>
                     </div>
@@ -556,6 +548,27 @@
         </div>
     </footer>
 
+    <!-- Email-Modal -->
+    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Mensaje enviado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Su mensaje ha sido enviado exitosamente. <br/> Pronto nos estaremos comunicando. <br/> Gracias.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
@@ -576,8 +589,7 @@
 
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat" attribution=setup_tool page_id="102280901462076" theme_color="#B41400"
-        logged_in_greeting="¡Hola! ¿En qué podemos ayudarte?"
-        logged_out_greeting="¡Hola! ¿En qué podemos ayudarte?"
+        logged_in_greeting="¡Hola! ¿En qué podemos ayudarte?" logged_out_greeting="¡Hola! ¿En qué podemos ayudarte?"
         greeting_dialog_display=hide>
     </div>
 
@@ -612,7 +624,6 @@
         crossorigin="anonymous"></script>
 
     <!-- Self allocated JS -->
-    <script src="assets/thirdparty/php-email-form/validate.js"></script>
     <script src="assets/thirdparty/mobile-nav/mobile-nav.js"></script>
     <script src="assets/thirdparty/isotope-layout/isotope.pkgd.min.js"></script>
 

@@ -1165,7 +1165,7 @@ h1, h2, h3, h4, h5, h6 {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #B41400;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1185,7 +1185,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #B41400;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1464,8 +1464,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 45px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .float-icon {
     bottom: 15px;
   }
-}
+} */
